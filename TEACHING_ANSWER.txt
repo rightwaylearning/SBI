@@ -1,0 +1,83 @@
+
+class Employee{
+
+   int employeeId;
+   String name;
+   Address addr;
+   Office off;
+
+}
+
+Employee e = new Employee();
+  
+    e.employeeId=1223;
+    e.name="namehere";
+    e.addr=a;
+    e.off= o;
+
+class Office{
+
+   String name;
+   String ceo;
+   Address addr2;
+   
+}
+
+Office o = new Office();
+   
+     o.name="namehere1";
+     o.ceo="namehere2";
+     o.addr2=ad;
+   
+class Address{
+
+   int number;
+   String line1;
+   String line2;
+   int pincode;
+}
+
+Address a= new Address();
+
+      a.number=123;
+      a.line1="B.A";
+      a.line2="bhai idhar nahi hai address";
+      a.pincode=34355;
+
+Address ad= new Address();
+
+      ad.number=234;
+      ad.line1="newline1";
+      ad.line2="newline2";
+      ad.pincode=56654;
+
+==========================================================================================
+
+answer:
+
+Employee e = new Employee();
+  
+    e.employeeId=1223;
+    e.name="namehere";
+    e.addr=a;
+    e.off= o;
+
+Office o = new Office();
+   
+     o.name="namehere1";
+     o.ceo="namehere2";
+     o.addr2=ad;
+
+Address a= new Address();
+
+      a.number=123;
+      a.line1="B.A";
+      a.line2="bhai idhar nahi hai address";
+      a.pincode=34355;
+
+Address ad= new Address();
+
+      ad.number=234;
+      ad.line1="newline1";
+      ad.line2="newline2";
+      ad.pincode=56654;
