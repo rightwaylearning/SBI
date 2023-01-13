@@ -1,0 +1,68 @@
+
+class Employee{
+
+      String name;                             // Data Declaration
+      String companyName;                          
+      int employeeId;	                     class creates design 
+      Address addr1;                         and object having memory
+      Office off;
+}
+class Office{
+
+      String name;                             
+      String ceoName;
+      Address addr2;
+      Number no;       
+
+}
+class Address{
+ 	
+       int number;
+       String line1;  
+       String line2;
+       int pincode;       
+
+}
+class Number{
+
+    int no1;
+    int no2;
+    Name n;
+}
+
+class Name{
+ 
+    String name1;
+}
+
+Step 2 :
+
+and object having memory
+ 
+Employee e = new Employee();               //memory alloction //object Creation 
+
+     e.name="Ramesh";
+     e.companyName = "xyz";
+     e.employeeId = 12;
+     
+     e.addr1 = new Address();
+     e.addr1.number = 76847453893;
+     e.addr1.line1 = "Bhuneshwar";
+     e.addr1.line1 = "Sikim";
+     e.addr1.pincode = 432675;
+     e.off = new Office();
+     e.off.name =  "Ravi";
+     e.off.ceoName = "Sundar Pichai Sir";
+     
+     e.off.addr2= new Address();
+     e.off.addr2.number = 7879563332;
+     e.off.addr2.line1 = "Bangla";
+     e.off.addr2.line2 = "line2address";
+     e.off.addr2.pincode = 4322555;
+
+     e.off.no = new Number();
+     e.off.no.no1 = 9874673633;
+     e.off.no.no2 = 9877355466;
+  
+     e.off.no.n = new Name();
+     e.off.no.n.name1 = "newName"; 
